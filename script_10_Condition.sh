@@ -3,7 +3,7 @@
 
 NUMBER=$1
 
-if [ $NUMBER -gt 100 ]
+if [ $NUMBER -gt 100 ] # -gt is to compare greater than
 then
     echo "Given number $NUMBER is greater than 100"
 else
